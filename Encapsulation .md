@@ -23,7 +23,17 @@ To implement **Encapsulation** in Python by defining a class `Rectangle` with **
 ---
 
 ## 💻 Program
+```
+class Rectangle:
+    __length=15
+    __breadth=2
+    def sum(self,__length,__breadth):
+        print("Area of Rectangle",__length*__breadth)
 
+obj=Rectangle()
+obj.sum(15,2)
+```
 ## Output
+<img width="1920" height="1080" alt="Screenshot (142)" src="https://github.com/user-attachments/assets/47bc1760-a34d-4913-a188-f1a5e5fb8bf7" />
 
 ## Result
